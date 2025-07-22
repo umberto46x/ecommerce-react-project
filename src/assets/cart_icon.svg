@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cart icon -->
+  <g>
+    <!-- Cart body -->
+    <path d="M6 6 L28 6 L26 20 L8 20 Z" fill="none" stroke="#1e293b" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Cart handle -->
+    <path d="M6 6 L4 2 L2 2" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Cart wheels -->
+    <circle cx="11" cy="26" r="2" fill="#1e293b"/>
+    <circle cx="23" cy="26" r="2" fill="#1e293b"/>
+    
+    <!-- Items in cart (subtle) -->
+    <rect x="10" y="9" width="3" height="3" fill="#64748b" rx="0.5" opacity="0.6"/>
+    <rect x="15" y="9" width="3" height="3" fill="#475569" rx="0.5" opacity="0.6"/>
+    <rect x="20" y="9" width="3" height="3" fill="#334155" rx="0.5" opacity="0.6"/>
+  </g>
+  
+
+</svg>
