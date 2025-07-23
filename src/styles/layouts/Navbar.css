@@ -249,6 +249,8 @@
   padding: 0;
   text-align: center;
   align-self: center;
+  font-family: Montserrat, Inter, Helvetica, "sans serif";
+  font-weight: 800;
 }
 .header .header__heading .header__searchbar {
   display: flex;
@@ -323,6 +325,8 @@
 }
 .header .header__links h2 {
   text-align: center;
+  font-family: Montserrat, Inter, Helvetica, "sans serif";
+  font-weight: 600;
 }
 .header .header__links ul {
   list-style-type: none;
