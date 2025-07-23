@@ -266,10 +266,16 @@
   padding: 0.5rem;
   border-radius: 8px;
 }
+.header .header__heading .header__searchbar input::-moz-placeholder {
+  color: #212529;
+}
 .header .header__heading .header__searchbar input::placeholder {
   color: #212529;
 }
 .header .header__heading .header__searchbar input:focus {
+  color: #FF6F00;
+}
+.header .header__heading .header__searchbar input:focus::-moz-placeholder {
   color: #FF6F00;
 }
 .header .header__heading .header__searchbar input:focus::placeholder {
@@ -342,6 +348,4 @@
   color: #FFFFFF;
   background-color: #FF6F00;
   border-color: #FF6F00;
-}
-
-/*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=Navbar.css.map */

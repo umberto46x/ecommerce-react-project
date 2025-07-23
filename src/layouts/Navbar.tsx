@@ -4,14 +4,17 @@ export const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="header__firstrow">
-          <img
-            className="header__logo"
-            src="../assets/ecommerce_logo.svg"
-            alt="E-commerce Logo"
-          />
-          <h1>E-commerce name</h1>
-          <div className="header__searchbar">
+        <div className="header__heading row">
+          <Link className="col-5 col-md-3" to={'/'}>
+            {' '}
+            <img
+              src="../../public/ecommerce_logo.svg"
+              className="header__logo "
+              alt="ecommerce-logo"
+            />
+          </Link>
+          <h1 className="col-5 col-md-3">E-commerce name</h1>
+          <div className="header__searchbar col-12 col-md-4 ">
             <label htmlFor="search" visually-hidden="true">
               Search
             </label>
@@ -20,21 +23,64 @@ export const Navbar = () => {
               type="search"
               name="search"
               id="search"
+              placeholder="Search for something"
             />
             <button className="header__searchSubmit" type="button">
-              Search
+              <img src="../../public/search.svg"></img>
             </button>
           </div>
 
-          <div className="header__icons">
-            <Link to={'/profile'}>Profile</Link>
-            <Link to={'/auth'}>Signup/Login</Link>
-            <Link to={'/cart'}>Cart</Link>
+          <div className="header__icons col-12">
+            <ul className="row">
+              <li className="col-3 " role="button">
+                <Link to={'/profile'}>
+                  <img src="../../public/person.svg" alt="Profile Icon" />
+                </Link>
+              </li>
+              <li className="col-3" role="button">
+                <Link to={'/auth'}>
+                  {' '}
+                  <img
+                    src="../../public/box-arrow-in-right.svg"
+                    alt="Auth Icon"
+                  />
+                </Link>
+              </li>
+              <li className="col-3" role="button">
+                {' '}
+                <Link to={'/cart'}>
+                  {' '}
+                  <img src="../../public/cart.svg" alt="Cart Icon>" />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="header__secondrow"></div>
+
+        <nav className="header__links row">
+          <ul className="row col-12 ">
+            <li className="col-6  " role="button">
+              <Link to={'/'}>Home</Link>
+            </li>
+            <li className="col-6 " role="button">
+              <Link to={'/products'}>Products</Link>
+            </li>
+            <h2 className="col-12">Categories</h2>
+            <li className="col-6 col-md-3 " role="button">
+              <Link to={"/products/?q=men's clothing"}>Men's Clothing</Link>
+            </li>
+            <li className="col-6 col-md-3 " role="button">
+              <Link to={'/products/?q=jewelery'}>Jewelry</Link>
+            </li>
+            <li className="col-6 col-md-3 " role="button">
+              <Link to={'/products/?q=electronics'}>Electronics</Link>
+            </li>
+            <li className="col-6 col-md-3 " role="button">
+              <Link to={"/products/?q=women's clothing"}>Women's clothing</Link>
+            </li>
+          </ul>
+        </nav>
       </header>
-      <nav></nav>
     </>
   );
 };

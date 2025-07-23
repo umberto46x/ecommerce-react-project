@@ -1,2 +1,166 @@
+@use "../../styles/constants/colors" as *;
+@use "../../styles/constants/fonts/fonts" as fonts;
 
 
+.header{
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    background-color: $bgSecondaryColor3;
+    margin:auto;
+    margin-bottom: 5rem;
+    border: 2px solid $primaryTextColor;
+
+    .header__heading{
+
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        a{
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .header__logo{
+            color: $primaryColor1;
+            width: 64px;
+            height: 64px;
+            padding: 0;        }
+
+        h1{
+            color: $primaryTextColor;
+            font-size: 1.5rem;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            align-self: center;
+        }
+
+        .header__searchbar{
+            
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+
+            label{
+                visibility: hidden;
+                width: 0;
+                height: 0;
+            }
+
+            input{
+                background-color: $bgSecondaryColor3;
+                border-color: $secondaryTextColor;
+                color: $primaryTextColor;
+                padding: 0.5rem;
+                border-radius: 8px;
+
+                &::placeholder{
+                    color: $primaryTextColor;
+                }
+                &:focus{
+                    &::placeholder{
+                        color: $accentColor;
+                    }
+                    color: $accentColor;
+                }
+            }
+            button{
+                padding: 0.5rem;
+                border-radius: 8px;
+
+                &:hover{
+                    background-color: $accentColor;
+                }
+                 
+                
+
+                img{
+                    width: 16px;
+                    height: 16px;
+
+                  
+                }
+            }
+        }
+
+        .header__icons{
+            ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                li{
+                    display: inline-block;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+
+                    img{
+                        width: 64px;
+                        height: 64px;
+                        color: $primaryColor1;
+                        border: 2px solid black;
+                        padding: 0.5rem;
+                        border-radius: 8px;
+                        &:hover{
+                            background-color: $accentColor;
+                        }
+                    }
+                }
+            }
+        }
+
+       
+    }
+    .header__links{
+        margin-top: 1rem;
+        
+        h2{
+            text-align: center;
+        }
+        
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            row-gap: 1rem;
+          
+
+            li{
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+
+                a{
+                    text-decoration: none;
+                    color: $primaryTextColor;
+                    border: 2px solid $primaryTextColor;
+                    border-radius: 8px;
+                    padding: 0.5rem;
+
+                    &:hover{
+                        color:$bgSecondaryColor3;
+                        background-color: $accentColor;
+                        border-color: $accentColor;
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (min-width:768px){
+    
+}
