@@ -12077,7 +12077,8 @@ textarea.form-control-lg {
   padding: 1rem;
   background-color: #FFFFFF;
   margin: auto;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border: 2px solid #212529;
 }
 .header .header__heading {
