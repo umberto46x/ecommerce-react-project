@@ -3,6 +3,7 @@ import { Navbar } from './layouts/Navbar';
 import './styles/App.css';
 
 function App() {
+  useGet
   return (
     <>
       <Navbar></Navbar>

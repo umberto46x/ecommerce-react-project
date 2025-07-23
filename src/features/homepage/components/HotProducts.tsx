@@ -1,4 +1,7 @@
+
 export const HotProducts = () => {
+
+ 
   return (
     <>
       <section className="hotproducts__container">
