@@ -21,7 +21,7 @@ import { useSelector } from "react-redux";
 
 export const store = configureStore({
 reducer: {
-    productsReducer},
+    products:productsReducer},
 
 })
 
