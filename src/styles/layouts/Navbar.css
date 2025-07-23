@@ -2,219 +2,6 @@
 /* sfondi */
 /* accent */
 /* text */
-/* fonts */
-/* Open Sans */
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Italic.woff2") format("woff2"), url("OpenSans-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-SemiBold.woff2") format("woff2"), url("OpenSans-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Regular.woff2") format("woff2"), url("OpenSans-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-SemiBoldItalic.woff2") format("woff2"), url("OpenSans-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Medium.woff2") format("woff2"), url("OpenSans-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-LightItalic.woff2") format("woff2"), url("OpenSans-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-BoldItalic.woff2") format("woff2"), url("OpenSans-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-MediumItalic.woff2") format("woff2"), url("OpenSans-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Light.woff2") format("woff2"), url("OpenSans-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Bold.woff2") format("woff2"), url("OpenSans-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-ExtraBoldItalic.woff2") format("woff2"), url("OpenSans-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-ExtraBold.woff2") format("woff2"), url("OpenSans-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-/* Roboto */
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-SemiBold.woff2") format("woff2"), url("Roboto-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Thin.woff2") format("woff2"), url("Roboto-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-MediumItalic.woff2") format("woff2"), url("Roboto-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-SemiBoldItalic.woff2") format("woff2"), url("Roboto-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Regular.woff2") format("woff2"), url("Roboto-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Italic.woff2") format("woff2"), url("Roboto-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-ExtraBoldItalic.woff2") format("woff2"), url("Roboto-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-ExtraLight.woff2") format("woff2"), url("Roboto-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Light.woff2") format("woff2"), url("Roboto-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-BoldItalic.woff2") format("woff2"), url("Roboto-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-ExtraBold.woff2") format("woff2"), url("Roboto-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Bold.woff2") format("woff2"), url("Roboto-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-LightItalic.woff2") format("woff2"), url("Roboto-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Black.woff2") format("woff2"), url("Roboto-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-ThinItalic.woff2") format("woff2"), url("Roboto-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-ExtraLightItalic.woff2") format("woff2"), url("Roboto-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Medium.woff2") format("woff2"), url("Roboto-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-BlackItalic.woff2") format("woff2"), url("Roboto-BlackItalic.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
 .header {
   width: 90%;
   height: auto;
@@ -251,6 +38,7 @@
   align-self: center;
   font-family: Montserrat, Inter, Helvetica, "sans serif";
   font-weight: 800;
+  font-size: 1.6rem;
 }
 .header .header__heading .header__searchbar {
   display: flex;
@@ -268,17 +56,16 @@
   color: #212529;
   padding: 0.5rem;
   border-radius: 8px;
-}
-.header .header__heading .header__searchbar input::-moz-placeholder {
-  color: #212529;
+  font-family: "Open Sans", Roboto, Helvetica, "sans serif";
+  font-size: 1rem;
+  font-weight: 400;
 }
 .header .header__heading .header__searchbar input::placeholder {
   color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .header .header__heading .header__searchbar input:focus {
-  color: #FF6F00;
-}
-.header .header__heading .header__searchbar input:focus::-moz-placeholder {
   color: #FF6F00;
 }
 .header .header__heading .header__searchbar input:focus::placeholder {
@@ -327,6 +114,7 @@
   text-align: center;
   font-family: Montserrat, Inter, Helvetica, "sans serif";
   font-weight: 600;
+  font-size: 1.4rem;
 }
 .header .header__links ul {
   list-style-type: none;
@@ -341,6 +129,8 @@
   margin: 0;
   display: flex;
   justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .header .header__links ul li a {
   text-decoration: none;
@@ -353,4 +143,6 @@
   color: #FFFFFF;
   background-color: #FF6F00;
   border-color: #FF6F00;
-}/*# sourceMappingURL=Navbar.css.map */
+}
+
+/*# sourceMappingURL=Navbar.css.map */

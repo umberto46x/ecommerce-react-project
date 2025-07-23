@@ -1,5 +1,5 @@
-@use "../../styles/constants/colors" as *;
-@use "../../styles/constants/fonts/fonts" as *;
+@use "../constants/colors" as * ;
+@use "../constants/fonts" as *;
 
 
 .header{
@@ -38,7 +38,8 @@
             text-align: center;
             align-self: center;
             font-family: $headingFonts;
-            font-weight: $mainHeadingsWeight
+            font-weight: $mainHeadingsWeight;
+            font-size: $mainHeadingsSize;
         }
 
         .header__searchbar{
@@ -59,9 +60,14 @@
                 color: $primaryTextColor;
                 padding: 0.5rem;
                 border-radius: 8px;
+                font-family: $bodyFonts;
+                font-size: $normalBodySize;
+                font-weight: $normalBodyWeight;
 
                 &::placeholder{
                     color: $primaryTextColor;
+                    font-size: $normalBodySize;
+                    font-weight: $normalBodyWeight;
                 }
                 &:focus{
                     &::placeholder{
@@ -128,6 +134,7 @@
             text-align: center;
             font-family: $headingFonts;
             font-weight: $secondaryHeadingsWeight;
+            font-size: $secondaryHeadingsSize;
         }
         
         ul{
@@ -144,6 +151,8 @@
                 margin: 0;
                 display: flex;
                 justify-content: center;
+                font-size: $accentBodySize;
+                font-weight: $accentBodyWeight;
 
                 a{
                     text-decoration: none;

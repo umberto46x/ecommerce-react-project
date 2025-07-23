@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"HotProducts.css"}
+{"version":3,"sourceRoot":"","sources":["../constants/_colors.scss","HotProducts.scss","../constants/_fonts.scss"],"names":[],"mappings":"AAGA;AAGA;AAIA;AAEA;ACRA;EACI;EACA;EACA;EACA,kBDCgB;ECAhB;EACA;EACA;EACA;;AAEA;EACI,aCfO;EDgBP,WCPe;EDQf,aCPiB;EDQjB;EACA;;AAGJ;EACI,aCtBI;EDuBJ,WCrBQ;EDsBR,aCrBU;EDsBV;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA","file":"HotProducts.css"}

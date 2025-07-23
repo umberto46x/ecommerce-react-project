@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/ecommerce_logo.svg';
+import search from '../assets/images/search.svg';
+import person from '../assets/images/person.svg';
+import auth from '../assets/images/box-arrow-in-right.svg';
+import cart from '../assets/images/cart.svg';
 
 export const Navbar = () => {
   return (
@@ -7,11 +12,7 @@ export const Navbar = () => {
         <div className="header__heading row">
           <Link className="col-5 col-md-3" to={'/'}>
             {' '}
-            <img
-              src="../../public/ecommerce_logo.svg"
-              className="header__logo "
-              alt="ecommerce-logo"
-            />
+            <img src={logo} className="header__logo " alt="ecommerce-logo" />
           </Link>
           <h1 className="col-5 col-md-3">E-commerce name</h1>
           <div className="header__searchbar col-12 col-md-4 ">
@@ -26,7 +27,7 @@ export const Navbar = () => {
               placeholder="Search for something"
             />
             <button className="header__searchSubmit" type="button">
-              <img src="../../public/search.svg"></img>
+              <img src={search}></img>
             </button>
           </div>
 
@@ -34,23 +35,20 @@ export const Navbar = () => {
             <ul className="row">
               <li className="col-3 " role="button">
                 <Link to={'/profile'}>
-                  <img src="../../public/person.svg" alt="Profile Icon" />
+                  <img src={person} alt="Profile Icon" />
                 </Link>
               </li>
               <li className="col-3" role="button">
                 <Link to={'/auth'}>
                   {' '}
-                  <img
-                    src="../../public/box-arrow-in-right.svg"
-                    alt="Auth Icon"
-                  />
+                  <img src={auth} alt="Auth Icon" />
                 </Link>
               </li>
               <li className="col-3" role="button">
                 {' '}
                 <Link to={'/cart'}>
                   {' '}
-                  <img src="../../public/cart.svg" alt="Cart Icon>" />
+                  <img src={cart} alt="Cart Icon>" />
                 </Link>
               </li>
             </ul>

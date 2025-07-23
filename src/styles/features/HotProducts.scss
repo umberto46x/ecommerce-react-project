@@ -1,0 +1,39 @@
+@use "../constants/colors" as * ;
+@use "../constants/fonts" as *;
+
+
+.hotproducts__container{
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    background-color: $bgSecondaryColor3;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid $primaryTextColor;
+
+    h2{
+        font-family: $headingFonts;
+        font-size: $secondaryHeadingsSize;
+        font-weight: $secondaryHeadingsWeight;
+        text-align: center;
+        margin-top: 1rem;
+
+    }
+    p{
+        font-family: $bodyFonts;
+        font-size: $normalBodySize;
+        font-weight: $normalBodyWeight;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .hotproducts__list{
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
