@@ -96,7 +96,8 @@ const productSlice = createSlice({
         },
         getProductsByQuery: (state,action:PayloadAction<string>)=>{
               if(state.products.length>0 ){
-                                const filteredProducts = state.products.filter(p => p.title.includes(action.payload))
+                                const filteredProducts = state.products.filter(p => p.title.includes(action.payload) 
+                                                                                || p.description.includes(action.payload))
                                 if(filteredProducts){
                                     return filteredProducts
                                 }
